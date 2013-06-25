@@ -12,7 +12,7 @@ function isPrime(number) {
 }
 
 primes = new Array();
-for(i=1; i<=100; i++) {
+for(i=1; primes.length<100; i++) {
     if(isPrime(i)){
         primes.push(i);
     }
